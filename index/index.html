@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="../lib/reset.css">
+    <link rel="stylesheet" href="../lib/iconfont/iconfont.css">
+    <link rel="stylesheet" href="./header/header.css">
+    <link rel="stylesheet" href="./categoryContent/categoryContent.css">
+    <link rel="stylesheet" href="./listContent/listContent.css">
+    <link rel="stylesheet" href="./getScore/getScore.css">
+    <link rel="stylesheet" href="../common/footer/footer.css">
+</head>
+<body>
+    <!--头部开始-->
+    <div class="header">
+        <div class="search-bar">
+            <div class="search-location">
+                <i class="iconfont">&#xe679;</i>
+                <span class="location-city">佛山</span>
+                <i class="iconfont">&#xe64a;</i>
+            </div>
+            <div class="search-btn">
+                <i class="iconfont">&#xe612;</i>
+                <input class="placeholder" type="text" name="placeholder" placeholder="鸡翅">
+            </div>
+        </div>
+        <img src="./img/banner.png" alt="" class="header-img">
+    </div>
+    <!--头部结束-->
+
+    <!--类目开始-->
+    <div class="category-content clearfix"></div>
+    <!--类目结束-->
+
+    <!--附近商家开始-->
+    <div class="list-content">
+        <div class="nearby">
+            <span class="text-line"></span>
+            <span>附近商家</span>
+            <span class="text-line"></span>
+        </div>
+        <div class="list-wrap"></div>
+        <div class="loading">加载中</div>
+    </div>
+    <!--附近商家结束-->
+
+    <!--底部菜单栏开始-->
+    <div class="footer"></div>
+    <!--底部菜单栏结束-->
+
+    <script type="text/javascript" src="../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../lib/setFontSize.js"></script>
+    <script type="text/javascript" src="./categoryContent/categoryContent.js"></script>
+    <script type="text/javascript" src="./listContent/listContent.js"></script>
+    <script type="text/javascript" src="./getScore/getScore.js"></script>
+    <script type="text/javascript" src="../common/footer/footer.js"></script>
+</body>
+</html>

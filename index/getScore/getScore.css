@@ -1,0 +1,29 @@
+/*评分结构开始*/
+.star-score{
+    
+}
+/*评分结构结束*/
+
+/*评分内容开始*/
+.star-score .star {
+    width: 0.267rem;
+    height: 0.267rem;
+    float: left;
+    background-size: cover;
+}
+
+.star .fullStar .iconfont,
+.star .halfStar .iconfont,
+.star .zeroStar .iconfont{
+    font-size: 0.32rem;
+    color:#FFD700;
+}
+
+.star .fullStar,
+.star .halfStar,
+.star .zeroStar{
+    display: inline-block;
+}
+
+
+/*评分内容结束*/

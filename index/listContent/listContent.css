@@ -1,0 +1,112 @@
+/*listContent结构开始*/
+.list-content{
+    overflow: hidden;
+    padding-bottom: 0.8rem;
+}
+/*listContent结构结束*/
+
+/*listContent布局开始*/
+.list-content .nearby{
+    text-align: center;
+    font-size: 0.373rem;
+    margin-top: 0.267rem;
+    margin-bottom: 0.16rem;
+}
+/*listContent布局结束*/
+
+/*listContent内容开始*/
+.list-content .nearby .text-line{
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.027rem;
+    border-bottom: 0.027rem solid lightgray;
+    margin: 0 0.107rem 0.107rem 0.107rem;
+}
+
+.list-wrap .item-content{
+    display: flex;
+    padding: 0.533rem 0;
+    margin: 0 0.267rem;
+    color: #333333;
+    position: relative;
+}
+
+.item-content .item-img{
+    width: 2.347rem;
+    height: 1.787rem;
+}
+
+.item-content .item-brand{
+    position: absolute;
+    top: 0.533rem;
+    left: 0;
+    font-size: 0.32rem;
+    color: white;
+    height: 0.373rem;
+}
+
+.item-brand .brand{
+    background-color: darkorange;
+    padding: 0.08rem;
+}
+
+.item-brand .new{
+    background-color: #55a532;
+    padding: 0.08rem;
+}
+
+.item-content .item-info-content{
+    flex: 1;
+    overflow: hidden;
+    margin-left: 0.347rem;
+}
+
+.item-content .item-title{
+    font-size: 0.427rem;
+    font-weight: 500;
+}
+
+.item-content .item-description{
+    margin-top: 0.267rem;
+    font-size: 0.32rem;
+    display: flex;
+}
+
+.item-content .item-monthCount{
+    margin-left: 0.133rem;
+}
+
+.item-content .item-time{
+    margin-left: 1.067rem;
+}
+
+.item-info-content .item-limit-price{
+    font-size: 0.32rem;
+    margin-top: 0.267rem;
+}
+
+.item-others .other-info{
+    margin-top: 0.187rem;
+}
+
+.item-others .info-tag{
+    float: left;
+    width: 0.373rem;
+    height: 0.373rem;
+}
+
+.item-others .info-message{
+    float: left;
+    font-size: 0.32rem;
+    margin-left: 0.08rem;
+    height: 0.373rem;
+    width: 6.133rem;
+}
+
+.loading{
+    padding: 0.267rem 0 0.8rem;
+    font-size: 0.427rem;
+    text-align: center;
+    color: #ccc;
+}
+/*listContent内容结束*/

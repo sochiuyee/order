@@ -1,0 +1,28 @@
+/*category结构开始*/
+.category-content{
+    padding-bottom: 0.267rem;
+}
+/*category结构结束*/
+
+/*category布局开始*/
+.category-content .category-item{
+    float: left;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.267rem;
+}
+/*category布局结束*/
+
+/*category内容开始*/
+.category-content .item-icon{
+    width:1.333rem;
+}
+
+.category-content .item-text{
+    margin-top: 0.267rem;
+    font-size: 0.373rem;
+}
+/*category内容结束*/

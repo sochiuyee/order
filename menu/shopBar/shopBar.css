@@ -1,0 +1,150 @@
+.shop-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+}
+
+.total-price{
+    display: flex;
+    height: 1.333333rem;
+    background-color: rgba(51,51,51,0.9);
+}
+
+.total-price .price-content{
+    flex: 1;
+}
+
+.total-price .car-icon{
+    width: 1.466667rem;
+    height: 1.466667rem;
+    background-image: url("./img/shop-icon.png");
+    background-size: cover;
+    position: relative;
+    top: -0.4rem;
+    left: 0.267rem;
+}
+
+.car-icon .dot-num{
+    background-color: #fb4e44;
+    width: 0.533rem;
+    height: 0.533rem;
+    font-size: 0.32rem;
+    color: #fff;
+    border: 0.027rem solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.533rem;
+    position: absolute;
+    right: -0.027rem;
+    top: 0;
+}
+
+.total-price .submit-btn{
+    width: 2.933333rem;
+    height: 100%;
+    line-height: 1.333333rem;
+    background-color: #ffd161;
+    font-size: 0.427rem;
+    text-align: center;
+}
+
+.total-price .distribution-fee{
+    font-size: 0.32rem;
+    color: #999;
+    margin-left: 0.48rem;
+    margin-top: 0.08rem;
+}
+
+.mask-cover{
+    /*为什么mask-cover的遮罩遮住整个页面而不像课程中不遮挡nav和购物车？？*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.clear-shop-bar{
+    height: 0.933333rem;
+    background-color: #f4f4f4;
+    font-size: 0.293333rem;
+    text-align: right;
+    padding: 0 0.267rem 0 0;
+    line-height: 0.9rem;
+}
+
+.clear-shop-bar img{
+    width: 0.346667rem;
+    height: 0.346667rem;
+    background-size: cover;
+    position: relative;
+    top: 0.053rem;
+    left: -0.133rem;
+}
+
+.total{
+    padding-top: 0.133rem;
+    padding-left: 0.4rem;
+    font-size: 0.533rem;
+    color: #ffffff;
+}
+
+.choose-item{
+    position: relative;
+    display: flex;
+    height: 0.933333rem;
+    background-color: #ffffff;
+    font-size: 0.4rem;
+    padding: 0.267rem 0.133rem;
+    align-items: center;
+}
+
+.choose-item .item-name{
+    width: 5.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.choose-item .price{
+    position: absolute;
+    right: 3.2rem;
+}
+
+.choose-item .select-content{
+    position: absolute;
+    right: 0.267rem;
+    bottom: 0.4rem;
+    display: flex;
+}
+
+.choose-item .reduce{
+    width: 0.667rem;
+    height: 0.667rem;
+    background-image: url("./img/minus.png");
+    background-size: cover;
+}
+
+.choose-item .plus{
+    width: 0.667rem;
+    height: 0.667rem;
+    background-image: url("./img/plus.png");
+    background-size: cover;
+}
+
+.choose-item .count{
+    font-size: 0.4rem;
+    color: #2f2f2f;
+    width: 0.666667rem;
+    height: 0.666667rem;
+    line-height: 0.666667rem;
+    margin-left: 0.053333rem;
+    margin-right: 0.053333rem;
+    text-align: center;
+}
+

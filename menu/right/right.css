@@ -1,0 +1,97 @@
+.right-content{
+    /*对flex项目设置flex：1平方剩下的空间，项目只有一个，即是占满剩下空间*/
+    flex: 1;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+    margin-left: 0.266667rem;
+}
+
+.right-content .right-title{
+    position: relative;
+    font-size: 0.373rem;
+    margin-top: 0.267rem;
+    border-left: 0.053rem solid #ffd161;
+    text-indent: 0.133rem;
+}
+
+.right-content .menu-item{
+    display: flex;
+    border-bottom: 0.027rem solid #f0f0f0;
+    padding: 0.666667rem 0;
+    position: relative;
+}
+
+.right-content .menu-icon{
+    width: 1.653333rem;
+    height: 1.653333rem;
+    margin-right: 0.267rem;
+}
+
+.right-content .menu-bord{
+    flex: 1;
+}
+
+.menu-bord .menu-title{
+    font-size: 0.427rem;
+    color: #2f2f2f;
+}
+
+.menu-bord .menu-dishes{
+    line-height: 1.5em;
+    color: #a9a9a9;
+    font-size: 0.32rem;
+    margin-top: 0.16rem;
+}
+
+.menu-bord .menu-like{
+    font-size: 0.267rem;
+    color: #a9a9a9;
+    margin-top: 0.133rem;
+}
+
+.menu-bord .menu-price{
+    font-size: 0.48rem;
+    font-weight: 500;
+    color: #fe4d3d;
+    margin-top: 0.267rem;
+}
+
+.menu-bord .unit{
+    color: #a9a9a9;
+    font-size: 0.373rem;
+}
+
+.right-content .select-content{
+    position: absolute;
+    right: 0.267rem;
+    bottom: 0.533rem;
+    display: flex;
+}
+
+.right-content .reduce{
+    width: 0.667rem;
+    height: 0.667rem;
+    background-image: url("./img/minus.png");
+    background-size: cover;
+}
+
+.right-content .plus{
+    width: 0.667rem;
+    height: 0.667rem;
+    background-image: url("./img/plus.png");
+    background-size: cover;
+}
+
+.right-content .count{
+    font-size: 0.4rem;
+    color: #2f2f2f;
+    width: 0.666667rem;
+    height: 0.666667rem;
+    line-height: 0.666667rem;
+    margin-left: 0.053333rem;
+    margin-right: 0.053333rem;
+    text-align: center;
+}
+
+

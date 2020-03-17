@@ -1,0 +1,77 @@
+/*header结构开始*/
+.header{
+    width: 100%;
+    height: 4.266667rem;
+    background-image: url(./img/header.png);
+    background-size: cover;
+    overflow: hidden;
+    /*为什么添加overflow：hidden能使.pic的margin-top离开上面一段距离且不会留白？？*/
+}
+/*header结构结束*/
+
+/*content结构开始*/
+.content{
+    min-height: 13.52rem;
+    background-color: #eee;
+}
+/*content结构结束*/
+
+/*header内容开始*/
+.header .pic{
+    /*img是行内样式，要设置display：block才能配合margin:0 auto;一起使用*/
+    width: 1.92rem;
+    height: 1.92rem;
+    margin: 0.666667rem auto 0;
+    display: block;
+    border: 0.08rem solid rgba(255,255,255,0.4);
+    border-radius: 50%;
+}
+
+.header .nickname{
+    color: #333;
+    font-size: 0.426667rem;
+    text-align: center;
+    margin-top: 0.4rem;
+}
+/*header内容结束*/
+
+/*content内容开始*/
+.content .content-item{
+    font-size: 0.373rem;
+    border-bottom: 0.266667rem solid #eee;
+    background-color: #fff;
+}
+
+.content-item li{
+    margin-left: 0.4rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.content-item li:first-child{
+    border-bottom: 0.027rem solid lightgray;
+}
+
+.content .iconfont{
+    color: #999999;
+    font-size: 0.373rem;
+    margin-right: 0.267rem;
+}
+
+.content .tel{
+    font-size: 0.4rem;
+    color: #ffb000;
+    text-align: center;
+    height: 1.226667rem;
+    background-color: white;
+    line-height: 1.226667rem;
+}
+
+.content .time{
+    font-size: 0.373333rem;
+    text-align: center;
+    margin-top: 0.346667rem;
+    color: #999;
+}
+/*content内容结束*/
+

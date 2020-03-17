@@ -1,0 +1,89 @@
+/*订单内容结构开始*/
+.order-item{
+    border-top: 0.347rem solid #efefef;
+}
+/*订单内容结构结束*/
+
+/*订单布局开始*/
+.order-item .order-item-inner{
+    border-bottom:0.027rem solid #e0e0e0;
+    padding-bottom: 0.48rem;
+    display: flex;
+}
+
+.order-item .order-evaluation{
+    padding: 0.266667rem 0;
+}
+/*订单布局结束*/
+
+/*订单内容开始*/
+.order-item .item-img{
+    width: 1.067rem;
+    height: 1.067rem;
+    margin-top: 0.533rem;
+    margin-left: 0.427rem;
+    display: block;
+    border-radius: 50%;
+}
+
+.order-item .item-right{
+    flex: 1;
+    margin: 0.267rem 0 0 0.267rem;
+}
+
+.item-top{
+    position: relative;
+    height: 1.466667rem;
+    padding-top: 0.053333rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.027rem solid #e0e0e0;
+}
+
+.item-top .shop-name{
+    font-size: 0.427rem;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-top i,
+.item-top .order-status{
+    font-size: 0.373rem;
+}
+
+.item-top .order-status{
+    font-size: 0.373333rem;
+    color: #999;
+    position: absolute;
+    right: 0.667rem;
+}
+
+
+.order-item .evaluation-btn{
+    float: right;
+    width: 2.666667rem;
+    height: 0.853333rem;
+    background-color: #ffd161;
+    color: #6b450a;
+    font-size: 0.373333rem;
+    line-height: 0.853333rem;
+    text-align: center;
+    border: none;
+    margin-right: 0.267rem;
+}
+.item-bottom .product-item{
+    font-size: 0.373rem;
+    margin-top: 0.267rem;
+}
+
+.loading{
+    border-top: 0.027rem solid #e9e9e9;
+    padding-top: 0.266667rem;
+    padding-bottom: 0.266667rem;
+    font-size: 0.426667rem;
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 1.333rem;
+}
+/*订单内容结束*/

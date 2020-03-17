@@ -1,0 +1,38 @@
+.tab-bar{
+    position: absolute;
+    top: 1.706667rem;
+    left: 0;
+    display: flex;
+    width: 100%;
+    border-bottom: 0.027rem solid #f0f0f0;
+}
+
+.tab-bar .tab-item{
+    flex: 1;
+    font-size: 0.48rem;
+    text-align: center;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    color: #666666;
+}
+
+.tab-bar .active{
+    position: relative;
+}
+
+/*为什么添加了active的类之后，tab-bar的border-bottom会被挡住一部分？？要对.nav添加z-index:1才能解决？？*/
+.tab-bar .active::after{
+    content: ' ';
+    display: block;
+    height: 0.106667rem;
+    width: 1.6rem;
+    background-color: #ffd161;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+
+

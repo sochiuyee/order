@@ -1,0 +1,25 @@
+.nav{
+    width: 100%;
+    background-color: white;
+    height: 1.706667rem;
+    border-bottom: 0.027rem solid #b2b2b2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nav .iconfont{
+    font-size: 0.533rem;
+    position: absolute;
+    top: 50%;
+    left: 0.533rem;
+    transform: translate(0,-50%);
+}
+
+.nav .title{
+    line-height: 1.706667rem;
+    text-align: center;
+    font-size: 0.533rem;
+}
+
